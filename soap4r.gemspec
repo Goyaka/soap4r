@@ -1,14 +1,12 @@
 require 'rubygems'
 require File.join(File.dirname(__FILE__), 'lib', 'soap', 'version')
 
-PKG_NAME      = 'soap4r'
-PKG_VERSION   = SOAP::VERSION::STRING
 
 SPEC = Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
-  s.name = PKG_NAME
+  s.name = 'soap4r'
   s.summary = "An updated implementation of SOAP 1.1 for Ruby 1.8 and 1.9."
-  s.version = PKG_VERSION
+  s.version = SOAP::VERSION::STRING
 
   s.author = "Laurence A. Lee, Hiroshi NAKAMURA"
   s.email = "rubyjedi@gmail.com, nahi@ruby-lang.org"
